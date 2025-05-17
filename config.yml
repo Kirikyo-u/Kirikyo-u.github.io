@@ -54,6 +54,23 @@ outputs:
         - RSS
         - JSON
 
+profileMode:
+    enabled: ture
+    title: PaperMod
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: "PaperMod"
+    Content: >
+
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: ""
@@ -168,27 +185,3 @@ markup:
         # lineNos：是否显示行号，我比较喜欢显示，所以我设置的为 true.
         # lineNumbersInTable：使用表来格式化行号和代码,而不是 标签。这个属性一般设置为 true.
         # noClasses：使用 class 标签，而不是内嵌的内联样式
-
-privacy:
-    vimeo:
-        disabled: false
-        simple: true
-
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
-
-    instagram:
-        disabled: false
-        simple: true
-
-    youtube:
-        disabled: false
-        privacyEnhanced: true
-
-services:
-    instagram:
-        disableInlineCSS: true
-    twitter:
-        disableInlineCSS: true
