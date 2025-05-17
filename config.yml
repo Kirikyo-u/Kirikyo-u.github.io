@@ -1,0 +1,14 @@
+baseURL: "https://rehibiki.github.io/
+languageCode: zh-cn
+title: resage
+theme: PaperMod
+buildDrafts: false
+
+module:
+  imports:
+  - path: github.com/adityatelange/hugo-PaperMod
+
+params:
+  env: production
+  themeColor: light
+  defaultTheme: light
